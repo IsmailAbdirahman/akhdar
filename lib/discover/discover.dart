@@ -81,7 +81,6 @@ class _DiscoverState extends State<Discover> {
   Widget loadingAnimation() {
     return SizedBox(
       width: 220.0,
-
       child: TextLiquidFill(
         text: 'أخضر  ',
         waveColor: Colors.green,
@@ -113,8 +112,9 @@ class DisplayDiscoverInfo extends StatelessWidget {
           quoteWidget(qoute),
           questionWidget(question),
           hashtagWidget(hashtag),
-          Divider(thickness: 3,)
-
+          Divider(
+            thickness: 3,
+          )
         ],
       ),
     );
@@ -237,7 +237,7 @@ class DisplayDiscoverInfo extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 235.0),
+                padding: const EdgeInsets.only(left: 215.0),
                 child: Text(
                   '1 / 11',
                   style: TextStyle(

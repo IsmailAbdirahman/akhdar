@@ -1,4 +1,5 @@
 import 'package:akhdar/discover/discover.dart';
+import 'package:akhdar/profile/profile.dart';
 import 'package:flutter/material.dart';
 
 class DisplayData extends StatefulWidget {
@@ -13,7 +14,7 @@ class DisplayData extends StatefulWidget {
 class DisplayDataState extends State<DisplayData> {
   int _selectedIndex = 0;
   List<Widget> _widgetOptions = <Widget>[
-    Text("5"),
+    ProfileScreen(),
     Text("4"),
     Discover(),
     Text("2"),
